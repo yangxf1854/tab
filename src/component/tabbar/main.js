@@ -31,6 +31,7 @@ const Tabbar = WrappedComponent =>
       super(props);
       this.state = {};
     }
+
     render() {
       const url = window.location.href; // 获取当前地址
       return (
